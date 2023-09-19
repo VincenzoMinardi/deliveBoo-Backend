@@ -1,0 +1,12 @@
+.btnStyle {
+    text-decoration: none;
+    color: $palette-nero;
+    border: 1px solid $palette-nero;
+    border-radius: 0.8rem;
+    padding: 0.4rem 1rem;
+    background-color: $palette-bianco-chiaro;
+    & > a {
+        text-decoration: none;
+        color: $palette-nero;
+    }
+}

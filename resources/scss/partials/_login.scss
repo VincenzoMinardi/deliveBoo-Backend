@@ -1,0 +1,71 @@
+#jumbo{
+    width: 526px;
+    height: 551px;
+    object-fit: cover;
+}
+
+.label-form{
+    color: $palette-nero;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input-form {
+    border-radius: 10px;
+    
+    &::placeholder{
+        color: $palette-nero-placeholder;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    // &:focus {
+    //     color:$palette-giallo-chiaro
+    // }
+}
+
+button[type="reset"] {
+    background-color:rgba(0, 0, 0, 0);
+    border: 0;
+    color: $palette-nero;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.button-form{
+    width: 228px;
+    height: 50px;
+    border-radius: 50px;
+    color: $palette-nero;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+}
+
+.big-text-login{
+    color: $palette-nero;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.slim-text-login{
+    color: $palette-nero;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
